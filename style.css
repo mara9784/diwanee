@@ -234,6 +234,7 @@ h1{
     background-color: transparent;
     border: 1px solid #979797;
     margin:0 auto;
+    cursor: pointer;
 }
 
 #poslovi .front-end button{
