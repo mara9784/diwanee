@@ -1,0 +1,672 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#home{
+    background-image: url(imgs/diw1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 280px;
+}
+
+.container{
+    clear:both;
+}
+
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+
+
+header{
+    padding: 40px 0;
+    width: 70%;
+    margin: 0 auto;  
+    
+}
+
+.logo{
+    float: left;
+    background-image: url(imgs/diwanee-sprite.png);
+    background-position: -128px -130px;
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 125px;
+}
+
+.sandwitch{
+    display: none;
+}
+
+#home ul{
+    float: right;
+    list-style: none;
+}
+
+#home ul li{
+    float: left;
+    margin-right: 80px;
+}
+
+#home ul li:last-of-type{
+    margin-right: 0;
+}
+
+#home ul li a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:13px;
+    color: #333;
+    letter-spacing:4px;
+    font-weight: 600;
+}
+
+.main-title{
+    position: relative;
+    top: 120px;
+}
+
+h1{
+    
+    font-size: 120px;
+    letter-spacing: 1px;
+    color: #333;
+    text-align: center;
+}
+.underline{
+    width:5%;
+    height: 3px;
+    margin: 30px auto 0 auto;
+    background-color: #c41230;
+}
+    
+#home p{
+    font-size: 36px;
+    color:#333;
+    line-height: 50px;  
+    text-align: center;
+    width: 55%;
+  margin: 50px auto 0 auto;
+}
+
+.paragraph-mobile{
+    display:none;
+}
+
+.third{
+    width: 33.3%;
+    float:left;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 24px;
+    color:#333;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background-color: #ededed;
+}
+
+.third:first-of-type, .third:last-of-type{
+    background-color: #fbfbfb;
+}
+
+.third:first-of-type{
+    background-image: url("imgs/triangle-white.png");
+    background-repeat: no-repeat;
+    background-position: -282px 92px;
+    background-size: 400px;
+}
+
+.third:last-of-type{
+     background-image: url("imgs/square-white.png");
+     background-repeat: no-repeat;
+    background-position: 234px 57px;
+}
+
+.third .one, .third .two, .third .three{
+    background-image: url(imgs/diwanee-sprite.png);
+    background-repeat: no-repeat;
+    background-position: -187px 0;
+    width: 109px;
+    height: 90px;
+    margin: 0 auto 45px auto;
+}
+
+.third .two{
+   background-position: -95px 0;
+    width:93px;
+    height: 94px;
+}
+
+.third .three{
+   background-position: 1px 0;
+    width: 95px;
+    height: 94px;
+}
+
+.third .underline{
+    background-color: #cbcbcb;
+    margin: 10px auto 10px auto;
+}
+
+#poslovi, #o-nama{
+     padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#poslovi .poslovi, #o-nama .o-nama{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.poslovi h3, .o-nama h3, .social-media h3{
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2.33px;
+    margin-bottom: 20px;
+}
+
+.poslovi h2, .o-nama h2{
+    font-size:28px;
+    letter-spacing: 2.33px;
+    line-height: 36px;
+    color: #333;
+}
+
+.poslovi .underline, .o-nama .underline{
+    margin: 20px auto 20px auto;
+}
+
+.poslovi p{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.front-end h4{
+    text-align: left;
+    font-size: 24px;
+    color:#888;
+    line-height: 34px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.third p, .front-end p, .o-nama p{
+    color: #928479;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 20px;
+    letter-spacing: 0;
+}
+
+.front-end{
+    padding: 60px 20%;
+    position: relative;
+}
+
+.front-end p, .o-nama p{
+    padding: 0;
+    text-align: left;
+    width: 60%;
+}
+
+#poslovi button{
+    display: block;
+    padding: 10px 25px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    background-color: transparent;
+    border: 1px solid #ededed;
+    margin:0 auto;
+}
+
+#poslovi .front-end button{
+    margin:0;
+    float: right;
+    position: relative;
+    top: -50px;
+}
+
+.tags{
+    text-align: left;
+    margin: 50px 0;
+}
+.front-end span{
+    border: 1px solid #ededed;
+    padding: 3px 10px;
+    color: #c41230;
+    border-radius:2px;
+    
+}
+.dark{
+    background-color: #333;
+}
+
+.dark h4, .dark button, .dark span{
+    color: #fff;
+}
+
+.front-end span.more{
+    display: none;
+}
+
+#o-nama{
+    background-color: #fbfbfb;
+}
+
+.o-nama p{
+    width: 100%;
+}
+
+#social-media{
+    padding: 100px 0;
+    
+}
+
+.social-media{
+    width: 145px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fb, .tw{
+     height:63px;
+     width:63px;
+    margin-top: 20px;
+}
+
+.fb{
+    float:left;
+    background-image: url(imgs/diwanee-sprite.png);
+    background-repeat: no-repeat;
+    background-position: -64px -97px;
+    
+}
+.tw{
+    float:right;
+    background-image: url(imgs/diwanee-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 -95px;
+    
+}
+
+footer .content{
+    background-color: #2d2d2d;
+}
+.content-one, .content-two{
+    width:80%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.content-one ul{
+    list-style: none;
+    height: 145px;
+}
+
+.content-one ul li{
+    width: 33.3%;
+    float:left;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color:#fff;
+}
+
+.location-logo{
+    line-height: 28px;
+}
+
+.location-logo span{
+     background-image: url(imgs/diwanee-sprite.png);
+    background-repeat: no-repeat;
+    background-position: -130px -95px;
+    height: 29px;
+    width: 20px;
+    margin-top: -3px;
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    margin-right: 10px;
+}
+
+.content ul li p{
+    font-size:18px;
+    color: #5b5b5b;
+    line-height: 28px;
+}
+
+.contentb{
+    background-color: #242424;
+}
+
+.content-two{
+     padding: 30px 0;
+     color:#5b5b5b;
+     letter-spacing: 2px;
+     font-size: 12px;
+}
+
+.copyright{
+    width: 50%;
+    float: left;
+}
+
+.contact{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.contact a{
+    text-decoration:none;
+    color: #5b5b5b;
+}
+
+@media (max-width:768px){
+    .menu{
+        display: none;
+    }
+    
+    .sandwitch{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    
+    .sandwitch .fa{
+        float: right;
+        font-size: 20px;
+        color: #9e989c;
+    }
+    
+    .sandwitch-menu{
+        display:none;
+        position: absolute;
+        top: 35px;
+        width: 100%;
+    }
+    
+    .button-sandwitch, .button-hide{
+        cursor: pointer;
+        position: relative;
+        right: 10%;
+    }
+    
+     .sandwitch ul{
+        float: none;
+        width: 100%;
+        background-color:#363636; 
+    }
+    
+    #home .sandwitch ul li{
+        text-align: center;
+        float: none;
+        margin-right: 0;
+        padding: 30px 0;
+        border-bottom: 1px solid #5b5b5b;
+        
+    }
+    
+    #home .sandwitch ul li a{
+        color: #fff;
+    }
+    
+    #home .sandwitch ul li:last-of-type{
+        font-size: 12px;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #9e989c;
+    }
+    
+    #home .sandwitch ul li:last-of-type span{
+        float: right;
+    }
+    
+    #home .sandwitch ul li:last-of-type span .fa{
+        font-size: 20px;
+    }
+    
+    #home .sandwitch ul li:last-of-type span .fa-twitter{
+        margin-right: 20px;
+    }
+    
+    .sandwitch .button-hide{
+        display: none;
+    }
+    
+    header{
+        padding: 20px 0;
+    }
+    
+    .main-title{
+        position: absolute;
+        width: 100%;
+        top: 140px;
+    }
+    
+    .underline{
+        margin: 20px auto 0 auto;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    #home p{
+        display: none;
+    }
+    
+     #home p.paragraph-mobile{
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        width: auto;
+        margin: 10px auto 0 auto;
+    }
+    
+    .third{
+        width: 100%;
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .third:first-of-type,  .third:last-of-type{
+        background-image: none;
+    }
+    
+    .third p, .front-end p, .o-nama p{
+        font-size: 15px;
+    }
+    
+    .o-nama p{
+        text-align: justify;
+    }
+    
+    .front-end {
+        padding: 20px;
+    }
+    
+     .front-end h4{
+         font-size: 15px;
+    }
+    
+    #poslovi .poslovi{
+        padding-bottom: 50px;
+    }
+    
+    #poslovi .front-end button{
+        display: none;
+    }
+    
+    .poslovi p{
+        font-size: 20px;
+    }
+    
+    .front-end p{
+        text-align: justify;
+        width: 100%;
+    }
+    
+    .tags{
+        margin: 20px 0;
+    }
+    
+    .content-one, .content-two{
+        width: 90%;
+        padding: 40px 0;
+        position: relative;
+    }
+    
+    .content-one ul {
+        height: 500px;
+    }
+    
+    .location-logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .content-one ul li{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .content ul li p {
+        font-size: 13px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 480px){
+    #poslovi .poslovi, #o-nama .o-nama {
+        width: 90%;
+    }
+    
+    .front-end{
+        background-color: #f8f7f5;
+    }
+    
+    .front-end.dark{
+        background-color: transparent;
+    }
+    
+    .front-end h4{
+        color:#333;
+    }
+    
+    .front-end p{
+        height: 20px;
+        overflow: hidden;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .front-end span{
+        border:0px;
+        border: 0px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #c41230;
+        padding-left: 0;
+        font-size: 15px;
+    }
+    
+    .front-end span.more{
+        display:block;
+        border: none;
+        padding: 0;
+        color: #928479;
+        font-weight: 100;
+        border-radius: 0;
+        width: 20px;
+        float: right;
+        position: relative;
+        top: -20px;
+        cursor: pointer;
+    }
+    
+    #poslovi button{
+        position: relative;
+        top: 50px;
+        padding: 10px 60px;
+    }
+    #poslovi, #o-nama {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    
+    #social-media {
+        padding: 50px 0;
+    }
+    
+    .social-media h3{
+        margin-bottom: 0px;
+    }
+    .content-one ul li{
+         position: absolute;
+         top: 195px;
+    }
+    
+    .content-one ul li:last-of-type{
+        top:40px;
+    }
+    
+    .content-one ul li:first-of-type{
+        top:370px;
+    }
+    .copyright, .contact{
+        float: none;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .content-two{
+        width: 100%;
+        height: 25px;
+    }
+    
+    .contact{
+        top: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .contact .fa{
+        font-size: 25px;
+        float: left;
+        padding-left: 5%;
+    }
+    
+    .contact a {
+        float: right;
+        padding-right: 10%;
+        padding-top: 7px;
+    }
+    
+    .copyright{
+        height: 40px;
+        bottom: 0px;
+        background-color: #2d2d2d;
+        line-height: 41px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 6px;
+    }
+}
