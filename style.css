@@ -90,12 +90,13 @@ h1{
 }
     
 #home p{
-    font-size: 36px;
+    font-size: 30px;
     color:#333;
-    line-height: 50px;  
+    line-height: 40px;
+    letter-spacing: 1px;
     text-align: center;
     width: 55%;
-  margin: 50px auto 0 auto;
+    margin: 50px auto 0 auto;
 }
 
 .paragraph-mobile{
@@ -111,7 +112,7 @@ h1{
     font-size: 24px;
     color:#333;
     line-height: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-weight: 600;
     background-color: #ededed;
 }
@@ -138,24 +139,22 @@ h1{
     background-repeat: no-repeat;
     background-position: -187px 0;
     width: 109px;
-    height: 90px;
+    height: 94px;
     margin: 0 auto 45px auto;
 }
 
 .third .two{
    background-position: -95px 0;
     width:93px;
-    height: 94px;
 }
 
 .third .three{
    background-position: 1px 0;
     width: 95px;
-    height: 94px;
 }
 
 .third .underline{
-    background-color: #cbcbcb;
+    background-color: #CBCBCB;
     margin: 10px auto 10px auto;
 }
 
@@ -170,16 +169,17 @@ h1{
     margin: 0 auto;
 }
 .poslovi h3, .o-nama h3, .social-media h3{
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 100;
-    letter-spacing: 2.33px;
-    margin-bottom: 20px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    color: #9b9b9b;
 }
 
 .poslovi h2, .o-nama h2{
-    font-size:28px;
-    letter-spacing: 2.33px;
-    line-height: 36px;
+    font-size:60px;
+    letter-spacing: 3px;
+    line-height: 75px;
     color: #333;
 }
 
@@ -188,24 +188,28 @@ h1{
 }
 
 .poslovi p{
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 100;
+    line-height: 50px;
+    margin-bottom: 40px;
 }
 
 .front-end h4{
     text-align: left;
-    font-size: 24px;
-    color:#888;
-    line-height: 34px;
-    letter-spacing: 3px;
     font-weight: 600;
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 2.33px;
+    line-height: 36px;
+    margin-bottom: 15px;
 }
 .third p, .front-end p, .o-nama p{
-    color: #928479;
     font-weight: 300;
-    font-size: 20px;
     padding: 0 20px;
     letter-spacing: 0;
+    font-size: 24px;
+    color: #888;
+    line-height: 34px;
 }
 
 .front-end{
@@ -221,12 +225,14 @@ h1{
 
 #poslovi button{
     display: block;
-    padding: 10px 25px;
+    padding: 9px 25px;
     text-align: center;
+    font size: 18px;
     font-weight: 600;
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
+    line-height: 23px;
     background-color: transparent;
-    border: 1px solid #ededed;
+    border: 1px solid #979797;
     margin:0 auto;
 }
 
@@ -235,6 +241,7 @@ h1{
     float: right;
     position: relative;
     top: -50px;
+   
 }
 
 .tags{
@@ -246,6 +253,8 @@ h1{
     padding: 3px 10px;
     color: #c41230;
     border-radius:2px;
+    font-size: 16px;
+    letter-spacing: 2px;
     
 }
 .dark{
@@ -318,13 +327,13 @@ footer .content{
 .content-one ul li{
     width: 33.3%;
     float:left;
-    letter-spacing: 2px;
     font-size: 18px;
     color:#fff;
 }
 
 .location-logo{
     line-height: 28px;
+    letter-spacing: 2px;
 }
 
 .location-logo span{
@@ -342,7 +351,7 @@ footer .content{
 
 .content ul li p{
     font-size:18px;
-    color: #5b5b5b;
+    color: #9B9B9B;
     line-height: 28px;
 }
 
@@ -360,6 +369,7 @@ footer .content{
 .copyright{
     width: 50%;
     float: left;
+    text-transform: uppercase;
 }
 
 .contact{
@@ -387,7 +397,7 @@ footer .content{
         z-index: 99;
     }
     
-    .sandwitch .fa{
+    .sandwitch .fa-twitter, .sandwitch .fa-facebook{
         float: right;
         font-size: 20px;
         color: #9e989c;
@@ -403,7 +413,8 @@ footer .content{
     .button-sandwitch, .button-hide{
         cursor: pointer;
         position: relative;
-        right: 10%;
+        text-align: right;
+        margin-right: 10%;
     }
     
      .sandwitch ul{
@@ -464,7 +475,7 @@ footer .content{
     }
     
     h1{
-        font-size: 30px;
+        font-size: 60px;
     }
     
     #home p{
@@ -481,9 +492,9 @@ footer .content{
     
     .third{
         width: 100%;
-        font-size: 20px;
+        font-size: 22px;
         padding-top: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     
     .third:first-of-type,  .third:last-of-type{
@@ -491,7 +502,7 @@ footer .content{
     }
     
     .third p, .front-end p, .o-nama p{
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .o-nama p{
@@ -503,11 +514,11 @@ footer .content{
     }
     
      .front-end h4{
-         font-size: 15px;
+         font-size: 16px;
     }
     
-    #poslovi .poslovi{
-        padding-bottom: 50px;
+    .poslovi h3, .o-nama h3, .social-media h3{
+        margin-bottom: 0;
     }
     
     #poslovi .front-end button{
@@ -515,7 +526,7 @@ footer .content{
     }
     
     .poslovi p{
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .front-end p{
@@ -548,15 +559,29 @@ footer .content{
     }
     
     .content ul li p {
-        font-size: 13px;
+        font-size: 18px;
         text-align: center;
     }
     
 }
 
 @media (max-width: 480px){
+    #home{
+        padding-bottom: 500px;
+        background-position: center -120px;
+    }
+    
+    #shapes, #poslovi, #o-nama{
+        position:relative;
+        top:-120px;
+    }
+    
     #poslovi .poslovi, #o-nama .o-nama {
         width: 90%;
+    }
+    
+    .poslovi h2, .o-nama h2{
+        font-size: 40px;
     }
     
     .front-end{
@@ -572,10 +597,11 @@ footer .content{
     }
     
     .front-end p{
-        height: 20px;
+        height: 30px;
         overflow: hidden;
         width: 100%;
         text-align: left;
+        font-size:16px;
     }
     
     .front-end span{
@@ -585,7 +611,7 @@ footer .content{
         text-transform: uppercase;
         color: #c41230;
         padding-left: 0;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .front-end span.more{
@@ -606,6 +632,7 @@ footer .content{
         position: relative;
         top: 50px;
         padding: 10px 60px;
+        font-size: 14px;
     }
     #poslovi, #o-nama {
         padding-top: 50px;
@@ -613,7 +640,9 @@ footer .content{
     }
     
     #social-media {
-        padding: 50px 0;
+        padding: 0;
+        position: relative;
+        top: -50px;
     }
     
     .social-media h3{
@@ -657,6 +686,9 @@ footer .content{
     .contact a {
         float: right;
         padding-right: 10%;
+    }
+    
+    .contact a:last-of-type{
         padding-top: 7px;
     }
     
@@ -666,7 +698,6 @@ footer .content{
         background-color: #2d2d2d;
         line-height: 41px;
         text-align: center;
-        text-transform: uppercase;
-        font-size: 6px;
+        font-size: 12px;
     }
 }
